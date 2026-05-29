@@ -1,0 +1,338 @@
+.main-img{
+    width:100vw;
+    height: 770px;
+    position:relative;
+
+}
+
+.content-img h1{
+    font-size: 60px;
+    top: 50%;
+    padding-left: 50px;
+    font-size: 80px;
+    line-height: 1.1875;
+    color: #cfcaca;
+    position: absolute;
+    left: 20%;
+    top: 42%;
+}
+
+.content-img p{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.55556;
+    letter-spacing: -0.03em;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 800px;
+    color: #e6dede;
+    padding-top: 30px;
+    position:absolute;
+    left: 20%;
+    top: 55%;
+    
+
+}
+
+
+.content-img img{
+    position:static;
+}
+.content-img{
+    width: 800px;
+    /* position:relative; */
+    top: 50%;
+    left: 20%;
+    /* background-color: #87C557; */
+}
+
+
+
+/* ------------------------------------------------------ */
+
+
+.Heroo {
+    /* background-color: aqua; */
+    height: 800px;
+    /* margin: 100px; */
+    
+}
+
+.heromain{
+    display: flex;
+    justify-content: end;
+    /* background-color: aqua; */
+}
+
+
+
+.heropara{
+    padding-top: 200px;
+    width: 500px;
+}
+
+.heropara h1{
+    font-weight:900;
+    font-size: 40px;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding-bottom: 25px;
+}
+
+.heropara p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+
+    
+}
+
+
+
+.H-img1{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0px 4px 10px gray;
+    transition: 0.5s ease;
+    
+}
+.H-img1:hover:hover{
+
+    transform: scale(1.05);
+
+    box-shadow: 0 0 35px rgba(138,43,226,0.8);
+
+}
+.H-img1{
+     position: absolute;
+    bottom: -563px;
+    left: 353px;
+     animation: move1 9s infinite alternate ease-in-out;
+    
+}
+.H-img2{
+    position: absolute;
+    left:  150px;
+    top: 1079px;
+     animation: move2 8s infinite alternate ease-in-out;
+} 
+.H-img3{
+    position: absolute;
+    top: 1204px;
+    right: 985px;
+     animation: move3 6s infinite alternate ease-in-out;
+}
+.H-img4{
+    position: absolute;
+    top: 1428px;
+    right: 833px;
+     animation: move4 11s infinite alternate ease-in-out;
+}
+.H-img5{
+    position: absolute;
+    top: 1200px;
+    right: 691px;
+     animation: move5 9s infinite alternate ease-in-out;
+}
+
+.H-img6{
+    position: absolute;
+    top: 1320px;
+    right: 751px;
+     animation: move5 9s infinite alternate ease-in-out;
+}
+
+
+@keyframes move1{
+
+    0%{
+        transform: translate(0px,0px);
+    }
+
+    25%{
+        transform: translate(20px,-20px);
+    }
+
+    50%{
+        transform: translate(-20px,20px);
+    }
+
+    75%{
+        transform: translate(10px,-10px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+
+}
+@keyframes move2{
+
+    0%{
+        transform: translate(0px,0px);
+    }
+
+    25%{
+        transform: translate(30px,20px);
+    }
+
+    50%{
+        transform: translate(20px,-20px);
+    }
+
+    75%{
+        transform: translate(10px,10px);
+    }
+
+    100%{
+        transform: translate(60px,0px);
+    }
+
+}
+@keyframes move3{
+
+    0%{
+        transform: translate(0px,0px);
+    }
+
+    25%{
+        transform: translate(20px,-20px);
+    }
+
+    50%{
+        transform: translate(-20px,20px);
+    }
+
+    75%{
+        transform: translate(10px,-10px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+
+}
+@keyframes move4{
+
+    0%{
+        transform: translate(0px,0px);
+    }
+
+    25%{
+        transform: translate(20px,-20px);
+    }
+
+    50%{
+        transform: translate(-20px,20px);
+    }
+
+    75%{
+        transform: translate(10px,-10px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+
+}
+@keyframes move5{
+
+    0%{
+        transform: translate(0px,0px);
+    }
+
+    25%{
+        transform: translate(20px,-20px);
+    }
+
+    50%{
+        transform: translate(-20px,20px);
+    }
+
+    75%{
+        transform: translate(10px,-10px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+
+}
+@keyframes move6{
+
+    0%{
+        transform: translate(0px,0px);
+    }
+
+    25%{
+        transform: translate(20px,-20px);
+    }
+
+    50%{
+        transform: translate(-20px,20px);
+    }
+
+    75%{
+        transform: translate(10px,-10px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+
+}
+.hmain{
+ margin: 30px;
+}
+
+
+@media (min-width:320px)and (max-width:480px){
+    
+    
+.H-img1{
+     position: absolute;
+    bottom: -1203px;
+    left: 123px;
+     animation: move1 15s infinite alternate ease-in-out;
+}
+
+
+.H-img1:hover{
+    
+}
+
+.H-img2{
+     position: absolute;
+    bottom: -1203px;
+    left: 753px;
+     animation: move1 14s infinite alternate ease-in-out;
+    
+}
+.H-img3{
+    position: absolute;
+    left: 420px;
+    top: 1260px;
+     animation: move2 18s infinite alternate ease-in-out;
+} 
+.H-img4{
+    position: absolute;
+    top: 1304px;
+    right: 885px;
+     animation: move3 19s infinite alternate ease-in-out;
+}
+.H-img5{
+    position: absolute;
+    top: 1228px;
+    right:899px;
+     animation: move4 17s infinite alternate ease-in-out;
+}
+.H-img6{
+    position: absolute;
+    top: 1329px;
+    right: 661px;
+     animation: move5 16s infinite alternate ease-in-out;
+}
+
+
+}

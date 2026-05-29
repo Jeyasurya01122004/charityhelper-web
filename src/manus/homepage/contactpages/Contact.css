@@ -1,0 +1,67 @@
+.form{
+    justify-items: center;
+    margin: 100px;
+}
+
+.form h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px 0px;
+}
+
+.formname{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.formname p{
+    padding: 9px 6px;
+}
+
+.fname{
+    padding: 8px 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.formmail{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.formmail p{
+    padding: 9px 6px;
+}
+
+.fmail{
+    padding: 8px 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.formmobile{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.formmobile p{
+    padding: 9px 6px;
+}
+
+.fmobile{
+    padding: 8px 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.formmsg{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.formmsg p{
+    padding: 9px 0px;
+}
+
+.fmsg{
+    padding: 8px 40px;
+    font-family: "Poppins", sans-serif;
+}

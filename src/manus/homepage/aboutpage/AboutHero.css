@@ -1,0 +1,124 @@
+.section{
+    display: flex;
+}
+
+
+.A-content1-R{
+    margin: 50px;
+}
+.A-content1-L{
+    width: 600px;
+    margin: 50px;
+}
+
+.A-content1-L h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.A-content1-L h2{
+    padding: 5px;
+}
+
+.A-content1-L p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.66667;
+    color: rgba(21, 21, 21, 0.8);
+    text-align: left;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+.part1 i{
+    padding: 15px;
+    font-size: 18px;
+    color: #4b4646;
+}
+
+.cards1{
+    display: flex;
+    padding: 0px 70px;
+    margin-top: 40px;
+}
+
+.cardtittle{
+    font-size: 40px;
+    margin-left: 500px;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #151515;
+}
+
+.cards2{
+    display: flex;
+    padding: 0px 70px;
+    margin-top: 20px;
+}
+
+.imgcard{
+    display: flex;
+    padding: 80px;
+    margin-top:80px ;
+}
+
+.imgcard1 h2{
+    font-size: 28px;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    color:#7FBC4E;
+    padding: 7px;
+    margin-left: 100px;
+}
+
+.imgcard1 h4{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        /* padding: 7px; */
+        margin-left: 110px;
+
+}
+
+
+.imgcard2 h2{
+    font-size: 28px;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    color:#7FBC4E;
+    padding: 7px;
+    margin-left: 90px;
+}
+
+.imgcard2 h4{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        /* padding: 7px; */
+        margin-left: 105px;
+
+}
+
+.imgcard3 h2{
+    font-size: 28px;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    color:#7FBC4E;
+    padding: 7px;
+    margin-left: 120px;
+}
+
+.imgcard3 h4{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        /* padding: px; */
+        margin-left: 90px;
+
+}
+
+.cardimg{
+    display: flex;
+    padding: 0px 80px;
+}

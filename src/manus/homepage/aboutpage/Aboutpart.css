@@ -1,0 +1,17 @@
+.part{
+    width: 400px;
+}
+
+
+.part h1{
+    color: #7FBC4E;
+    font-size: 26px;
+    padding: 8px;
+}
+.part p{
+    font-family: 'Poppins';
+    /* font-style: italic; */
+    font-weight: 300;
+    font-size: 20px;
+    padding: 7px;;
+}
